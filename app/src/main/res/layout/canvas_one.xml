@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.demo.mytest.View.Canvas
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/view"
+        android:layout_alignStart="@+id/view"
+        android:layout_marginTop="38dp" />
+
+
+    <com.demo.mytest.View.Canvas_1
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="27dp"
+        android:id="@+id/view"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
