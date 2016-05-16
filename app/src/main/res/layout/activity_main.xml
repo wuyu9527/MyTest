@@ -5,16 +5,9 @@
     android:layout_height="match_parent"
     tools:context="com.demo.mytest.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView" />
-
-    <ImageView
+    <com.demo.mytest.View.MyImageView
         android:id="@+id/xian"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_below="@+id/textView"
         android:layout_marginTop="80dp" />
 </RelativeLayout>

@@ -38,8 +38,8 @@ public class Canvas extends View {
 //                canvas.drawRect(10,30,10,80,paint);//左上右下
 //            }
 
-        double x = 10.56;
-        double y =9.56;
+        double x = 10;
+        double y =9;
 
 
         canvas.drawColor(Color.BLACK);
@@ -47,15 +47,19 @@ public class Canvas extends View {
 
 
 
-        int mun= 20;//宽
-        int num = 30;//根
+        int mun= 20;//高400 宽20
+        int num = 30;//宽600 30根
+        double max = 0;//最大值
+        double min = 400;//最小值
+
         /**
          *
-         * 10% = height*0.01
-         * 高 400 宽 600 2:3
-         * 
+         * 0.01 = 0.0025
+         *
          *
           */
+        double z = x-y;
+
         if (x>y) {
             paint.setColor(Color.CYAN);
             for (int i = 0; i < num; i++) {
